@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Descarte 2.0</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Importa as fontes para este projeto-->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <!-- Importa o CSS utilizado neste projeto -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand navbar-success bg-success fixed-top">
+        <!-- A tag nav recebe 5 classes diferentes do bootstrap que determina tamanho, cor, cor de fundo e se será fixa no topo -->
+        <div class="container">
+            <!-- a classe container deixa seu layout alinhado corretamente na página. Com margens laterais ou não (container-fluid) -->
+            <!--o container é um componente base, e pode ser usado mais de 1x -->
+            
+        <img  class="logo"src="icone-tesoura.png" alt="logo descarte 2.0">
+        </div>
+    </nav>
+    <!--termina a barra de navegação -->
+    
+    <!-- Header -->
+    <header class="intro-header">
+        <div class="container"> <!-- aqui a classe container aparece novamente --> 
+            <div class="introducao"> <!-- a classe introdução foi colocada para que as tags dentro desta div sejam estilizadas pelo CSS -->
+                
+                <h1>DESCARTE 2.0</h1> <!-- h1 significa heading tags, usada para títulos e subtítulos, neste caso seria para o título principal -->
+                <h3 class= "titulo">A ponte sustentável entre o oportunidade e rentabilidade</h3> <!-- o h3 seria como um subtítulo, complementando o título-->
+                <hr class="intro-divider"> <!-- linha divisória, com uma classe para estilizar-->
+            </div>
+        </div>
+    </header>
+    
+    <!-- primeiro bloco de texto e imagem  -->
+    <section class="content-01">
+        <div class="container">
+            <div class="row"> <!--é colocado a tag row, pois neste caso usaremos o grid de colunas, então as div que vem a seguida estarão na mesma linha
+                mas em colunas paralelas -->
+                <div class="col-lg-5 mr-auto order-lg-2"> <!-- é colocado classes do Bootstrap mesmo:
+                    col-lg-5 é coluna larga e que ocupe 5 col.;
+                    mr-auto seria margin right :auto;
+                    order-lg-2 é colocado como um espaçamento a direita e a esquerda, formando as 12col. -->
+                    <div class="clearfix"></div> <!-- a classe Clearfix, é semelhante ao efeito float, para deixar 2 div na mesma linha e alinhadas.-->
+                    <h2 class="primeiro-texto">Quem somos:</h2>
+                    <p>Cansados com o grande desperdício nas confecções têxteis, 5 jovens empreendores decidem criar a DESCARTE 2.0.
+                    <!--a tag <a> é anchor(ancora), que serve quando vc quer inserir um link em algum item do seu site, e este link é colocado no "href" -->
+                    </div>
+                    <div class="col-lg-5 ml-auto order-lg-1">
+                        <img class="img-fluid" src="ethical-fabric.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- termina o primeiro bloco de texto e imagem -->
+    
+    <!-- segundo bloco de texto e imagem-->
+    <section class="content-02">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 ml-auto">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">O que fazemos?</h2>
+                    <p>Conectamos empresas e pessoas para o descarte reponsável e consciente do resíduos da indútria têxtil brasileira!</p>
+                    <ul>
+                        <li>Tecidos</li>
+                        <li>Aviamentos</li>
+                        <li>Maquinário</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 mr-auto ">
+                    <img class="img-fluid" src="retalhos.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- termina o bloco de txt e imagem -->
+
+    <section class="mt-5 mb-5">
+        <div class="container">
+            <h2>Preencha os campos abaixo:</h2>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">E-mail:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Para o contato mais formal com você!">
+                  <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Telefone para contato:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Caso falar via whatspp/ligação seja necessário!">
+                  <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">CNPJ/CPF:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Para sabermos se você é pessoa física ou jurídica!">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">O que você pode oferecer?</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Resíduos industriais? Maquinário? Conta pra gente :)">
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+              </form>
+        </div>
+    </section>
+    <div class="container d-flex justify-content-center">
+            <iframe src="https://giphy.com/embed/ugOaZ3Wi8lqZW" width="480" height="364" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/green-outkast-andre-3000-ugOaZ3Wi8lqZW">via GIPHY</a></p>
+    </div>
+    
+    
+    <!-- banner do rodapé -->
+
+    <!-- final do rodapé -->
+    
+</body>
+
+</html>
